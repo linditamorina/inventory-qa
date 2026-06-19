@@ -27,26 +27,30 @@ Deri më tani, suita e testimeve mbulon funksionalitetet e mëposhtme:
 Për të ekzekutuar këtë projekt në kompjuterin tuaj, ndiqni këta hapa:
 
 1. **Klononi repozitorin:**
-   ```bash
-   git clone [https://github.com/username/inventory-qa.git](https://github.com/username/inventory-qa.git)
+```bash
+   git clone [https://github.com/linditamorina/inventory-qa.git](https://github.com/linditamorina/inventory-qa.git)
    cd inventory-qa
+```
 Instaloni dependencat:
 
 Bash
-npm install
+   npm install
+   
 Instaloni shfletuesit për Playwright:
 
 Bash
-npx playwright install
+   npx playwright install
+   
 Ekzekutoni testet:
 
 Bash
-npx playwright test
+   npx playwright test
+   
 Shikoni Raportin e Testimeve (HTML):
 
 Bash
-npx playwright show-report
+   npx playwright show-report
+   
 🐛 Raportimi i Gabimeve (Bug Tracking)
 Kur testet e Playwright dështojnë për shkak të logjikës së aplikacionit (si p.sh. mungesa e validimit në fushat input), raportet gjenerohen automatikisht. Këto gjetje më pas dokumentohen si "Bug Tickets" në Jira për ekipin e zhvillimit.
-
 Autor: Lindita Morina
