@@ -53,4 +53,5 @@ Bash
    
 🐛 Raportimi i Gabimeve (Bug Tracking)
 Kur testet e Playwright dështojnë për shkak të logjikës së aplikacionit (si p.sh. mungesa e validimit në fushat input), raportet gjenerohen automatikisht. Këto gjetje më pas dokumentohen si "Bug Tickets" në Jira për ekipin e zhvillimit.
+
 Autor: Lindita Morina
